@@ -1,11 +1,11 @@
 <template>
   <p>
     <router-link to="/">Home</router-link> | 
-    <router-link to="/About">About</router-link> | 
-    <router-link to="/Contact">Contact</router-link> | 
-    <router-link to="/Dashboard">Dashboard</router-link>
+    <router-link to="/about">About</router-link> | 
+    <router-link to="/contact">Contact</router-link> | 
+    <router-link to="/dashboard">Dashboard</router-link>
   </p>
-
+  
   <router-view></router-view>
 </template>
 
@@ -22,7 +22,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
   margin-top: 60px;
 }
 </style>

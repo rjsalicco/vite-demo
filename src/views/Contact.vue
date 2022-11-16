@@ -1,22 +1,19 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ title }}</h1>
 
   <p>
-    Contact
   </p>
 </template>
 
 <script setup>
 import { defineProps, reactive } from 'vue'
 
-defineProps({
-  msg: String
-})
+var title = 'Contact'
 
 </script>
 
 <style scoped>
 a {
-  color: #42b983;
+  color: #000000;
 }
 </style>
