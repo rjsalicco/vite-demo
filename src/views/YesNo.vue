@@ -13,7 +13,7 @@
 <script setup>
 import { defineProps, ref, reactive } from 'vue'
 
-const title = 'About'
+const title = 'Yes/No'
 const click = 'Get an Answer'
 const answer = ref('')
 
