@@ -23,15 +23,15 @@ defineProps({
 })
 
 function getAnswer() {
-  fetch('https://yesno.wtf/api', 
+  fetch('https://yesno.wtf/api',
     { method: 'GET' }
   )
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data),
-    console.log(data.answer),
-    answer.value = data.answer
-  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data),
+        console.log(data.answer),
+        answer.value = data.answer
+    })
 }
 
 function clearAnswer() {
